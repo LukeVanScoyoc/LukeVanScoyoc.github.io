@@ -15,8 +15,8 @@
             text-align: center;
             img{
                 border: 10px bevel var(--background-light);
-                height: 50%;
-                width: 50%;
+                height: fit-content;
+                width: auto;
             }
             img:hover{
                 border: 20px bevel lavender;
