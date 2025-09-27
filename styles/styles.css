@@ -12,14 +12,16 @@
         background-color: white;
         
         .mainBody {
+            width: 50%; 
+            margin: 0 auto;
             text-align: center;
             img{
-                border: 10px bevel var(--background-light);
-                height: fit-content;
-                width: auto;
+                border: 10px outset var(--background-light);
+                height: 50%;
+                width: 50%;
             }
             img:hover{
-                border: 20px bevel lavender;
+                border: 20px outset lavender;
             }
         }
     }
