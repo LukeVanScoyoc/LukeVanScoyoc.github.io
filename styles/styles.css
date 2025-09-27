@@ -16,12 +16,9 @@
             margin: 0 auto;
             text-align: center;
             img{
-                border: 10px outset var(--background-light);
+                border: 20px outset var(--background-light);
                 height: 50%;
                 width: 50%;
-            }
-            img:hover{
-                border: 20px outset lavender;
             }
         }
     }
