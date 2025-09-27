@@ -1,0 +1,24 @@
+:root {
+    --background-light: #c973ff;
+    --text-light: #140021;
+}
+
+.light{
+    header{
+        background-color: var(--background-light);
+        color: var(--text-light);
+    }
+    body{
+        background-color: white;
+        
+        .mainBody {
+            text-align: center;
+            img{
+                border: 10px bevel var(--background-light);
+            }
+            img:hover{
+                border: 20px bevel lavender;
+            }
+        }
+    }
+}
