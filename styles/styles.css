@@ -1,11 +1,37 @@
+:root{
+    --dark_background: #470e96;
+}
 
 .light{
     header{
         background-color: lavender;
-        color: var(--text-light);
+        color: black;
     }
     body{
         background-color: white;
+        
+        .mainBody {
+            width: 50%; 
+            margin: 0 auto;
+            text-align: center;
+            img{
+                border: 20px outset lavender;
+                height: 50%;
+                width: 50%;
+            }
+        }
+    }
+}
+
+.dark{
+    background-color: black;
+    header{
+        background-color: var(--dark_background);
+        color: lightgray;
+    }
+    body{
+        background-color: black;
+        color: lightgray;
         
         .mainBody {
             width: 50%; 
