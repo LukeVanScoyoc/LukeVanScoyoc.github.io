@@ -1,11 +1,7 @@
-:root {
-    --background-light: #c973ff;
-    --text-light: #140021;
-}
 
 .light{
     header{
-        background-color: var(--background-light);
+        background-color: lavender;
         color: var(--text-light);
     }
     body{
@@ -16,7 +12,7 @@
             margin: 0 auto;
             text-align: center;
             img{
-                border: 20px outset var(--background-light);
+                border: 20px outset lavender;
                 height: 50%;
                 width: 50%;
             }
