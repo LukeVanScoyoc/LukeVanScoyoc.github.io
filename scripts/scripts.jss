@@ -3,7 +3,7 @@ let header = document.getElementById("header");
 let style = "light";
 
 switchButton.addEventListener("click", (e) => {
-    if(style == "light"){
+    if(style === "light"){
         header.className = "dark";
         style = "dark";
     }
@@ -11,4 +11,4 @@ switchButton.addEventListener("click", (e) => {
         header.className = "light";
         style = "light";
     }
-})
+});
